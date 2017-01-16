@@ -5,9 +5,8 @@ using UnityEngine;
 public class GoToUrl : MonoBehaviour
 {
 
-    private string Url = "http://wear-studio.com/"
-
-;   private void OnMouseDown()
+    private string Url = "http://wear-studio.com/";   
+    private void OnMouseDown()
     {
         Application.OpenURL(Url);
     }
